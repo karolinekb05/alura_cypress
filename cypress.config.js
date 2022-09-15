@@ -5,6 +5,7 @@ module.exports = defineConfig({
   projectId: "51rjvv",
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
+    baseUrl: "https://alura-fotos.herokuapp.com",
     setupNodeEvents(on, config) {
       on('before:run', async (details) => {
         console.log('override before:run');
