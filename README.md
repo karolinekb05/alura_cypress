@@ -12,15 +12,25 @@ Neste repositório contém as práticas que fiz durante o curso.
 
 ### Sites e artigos recomendados durante o curso:
 Documentação do Cypress: https://docs.cypress.io/guides/overview/why-cypress
+
 Pirâmide de testes: https://cursos.alura.com.br/extra/alura-mais/entenda-a-piramide-de-teste-c206
+
 Continuous testing: https://cursos.alura.com.br/extra/alura-mais/o-que-e-continuous-testing--c1144
+
 Sintaxe do comando contains: https://docs.cypress.io/api/commands/contains
+
 Códigos de exemplo Cypress: https://github.com/cypress-io/cypress
+
 Executando os testes em modo headless: https://docs.cypress.io/guides/guides/command-line#cypress-run
+
 Site mochawesome: https://www.npmjs.com/package/cypress-mochawesome-reporter
+
 API: https://cursos.alura.com.br/extra/alura-mais/o-que-e-uma-api--c697
+
 API REST: https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
+
 Boas práticas com Cypress: https://docs.cypress.io/guides/references/best-practices
+
 Mocks e Stubs em testes: https://www.alura.com.br/artigos/testes-com-mocks-e-stubs
 
 
