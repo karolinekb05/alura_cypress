@@ -4,15 +4,14 @@
   "description": "Projeto de automaçao de testes E2E com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "cypress_alura"
+    "test": "npx cypress open",
+    "cy:run": "cypress run"
   },
   "author": "Karoline K Batistela",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.7.0"
+    "cypress": "^10.7.0",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "mochawesome": "^7.1.3"
   }
 }

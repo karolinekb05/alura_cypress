@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-13T21:06:13.977Z",
+    "end": "2022-09-13T21:06:21.798Z",
+    "duration": 7821,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bcd2fc51-4af2-498b-b372-713209cdcc44",
+      "title": "",
+      "fullFile": "cypress/e2e/3-alura-pic/alura-pic.cy.js",
+      "file": "cypress/e2e/3-alura-pic/alura-pic.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1aeb1918-136e-4d57-affe-ea97dbca5e8f",
+          "title": "Registro e login de usuário",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verifica as mensagens de validação dos campos da tela de registro",
+              "fullTitle": "Registro e login de usuário Verifica as mensagens de validação dos campos da tela de registro",
+              "timedOut": null,
+              "duration": 2309,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Email is required!').should('be.visible');\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'User name is required!').should('be.visible');\ncy.contains('ap-vmessage', 'Password is required!').should('be.visible');\ncy.contains('ap-vmessage', 'Full name is required!').should('be.visible');",
+              "err": {},
+              "uuid": "ef45ab2a-6819-4557-be17-8deaaeb98c76",
+              "parentUUID": "1aeb1918-136e-4d57-affe-ea97dbca5e8f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica as mensagens de validação do campo email",
+              "fullTitle": "Registro e login de usuário Verifica as mensagens de validação do campo email",
+              "timedOut": null,
+              "duration": 1286,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Email is required!').should('be.visible');\ncy.get('input[formcontrolname=\"email\"]').type('karoline');\ncy.contains('ap-vmessage', 'Invalid e-mail').should('be.visible');",
+              "err": {},
+              "uuid": "9dbcf6ae-dedf-425a-a49d-20ec5bcd5f10",
+              "parentUUID": "1aeb1918-136e-4d57-affe-ea97dbca5e8f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica as mensagens de validação do campo senha",
+              "fullTitle": "Registro e login de usuário Verifica as mensagens de validação do campo senha",
+              "timedOut": null,
+              "duration": 1182,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.get('input[formcontrolname=\"password\"]').type('123');\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Mininum length is 8').should('be.visible');",
+              "err": {},
+              "uuid": "0bee1676-7f89-46a0-9f54-24ce24a32754",
+              "parentUUID": "1aeb1918-136e-4d57-affe-ea97dbca5e8f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica as mensagens de validação do campo user name",
+              "fullTitle": "Registro e login de usuário Verifica as mensagens de validação do campo user name",
+              "timedOut": null,
+              "duration": 1244,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.get('input[formcontrolname=\"userName\"]').type('Karoline');\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Must be lower case').should('be.visible');",
+              "err": {},
+              "uuid": "06c8b0a1-6e5e-4330-bfe2-1acdb72a22a6",
+              "parentUUID": "1aeb1918-136e-4d57-affe-ea97dbca5e8f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ef45ab2a-6819-4557-be17-8deaaeb98c76",
+            "9dbcf6ae-dedf-425a-a49d-20ec5bcd5f10",
+            "0bee1676-7f89-46a0-9f54-24ce24a32754",
+            "06c8b0a1-6e5e-4330-bfe2-1acdb72a22a6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6021,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
